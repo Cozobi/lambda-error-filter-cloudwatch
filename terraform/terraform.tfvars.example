@@ -1,0 +1,11 @@
+aws_region            = "us-east-1"
+notification_email    = "your-email@example.com"
+monitored_lambda_name = "test-error-generator"
+exclusion_patterns    = "Rate Exceeded,request rate is too high"
+log_filter_pattern    = "?ERROR ?CRITICAL"
+
+tags = {
+  Project     = "lambda-error-filter"
+  Environment = "dev"
+  ManagedBy   = "terraform"
+}
