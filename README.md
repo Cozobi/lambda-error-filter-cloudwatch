@@ -41,9 +41,9 @@ terraform plan
 
 # Deploy
 terraform apply
-Important: After deployment, check your email and confirm the SNS subscription.
-```
 
+```
+Important: After deployment, check your email and confirm the SNS subscription.
 
 ## Testing
 
@@ -73,4 +73,4 @@ terraform destroy
 ```
 
 ## References
-AWS Blog: ![Get notified for specific Lambda function error patterns using CloudWatch](https://aws.amazon.com/blogs/mt/get-notified-specific-lambda-function-error-patterns-using-cloudwatch/)
+AWS Blog: [Get notified for specific Lambda function error patterns using CloudWatch](https://aws.amazon.com/blogs/mt/get-notified-specific-lambda-function-error-patterns-using-cloudwatch/)
